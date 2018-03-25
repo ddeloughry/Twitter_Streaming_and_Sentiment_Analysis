@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e016e9e4-8a36-428c-8d3c-8fad6cb249ca" name="Default" comment="" />
+    <list default="true" id="e016e9e4-8a36-428c-8d3c-8fad6cb249ca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Ass1Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ass1Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display_Service/Display.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Service/Display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentitment_Service/Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentitment_Service/Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Streamer_Service/Streamer.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,40 +17,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Ass1Python$Streamer.coverage" NAME="Streamer Coverage Results" MODIFIED="1521912085351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Streamer_Service" />
     <SUITE FILE_PATH="coverage/Ass1Python$Twitter_Client.coverage" NAME="Twitter_Client Coverage Results" MODIFIED="1521568916236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ass1Python$My_Twitter_Listener.coverage" NAME="My_Twitter_Listener Coverage Results" MODIFIED="1521676424379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ass1Python$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1521676394076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentitment_Service" />
+    <SUITE FILE_PATH="coverage/Ass1Python$My_Twitter_Listener.coverage" NAME="My_Twitter_Listener Coverage Results" MODIFIED="1521725924316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ass1Python$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1521912079151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentitment_Service" />
     <SUITE FILE_PATH="coverage/Ass1Python$My_Twitter_Listener__1_.coverage" NAME="My_Twitter_Listener (1) Coverage Results" MODIFIED="1521638251422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Streamer_Service" />
-    <SUITE FILE_PATH="coverage/Ass1Python$Display.coverage" NAME="Display Coverage Results" MODIFIED="1521670307774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Display_Service" />
+    <SUITE FILE_PATH="coverage/Ass1Python$Display.coverage" NAME="Display Coverage Results" MODIFIED="1521909703507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Display_Service" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Display.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Display_Service/Display.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Display_Service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Display_Service/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Display_Service/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Streamer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -63,6 +77,11 @@
       <find>on_data</find>
       <find>parse_args</find>
       <find>b'</find>
+      <find>format_filename</find>
+      <find>convert_valid</find>
+      <find>parse</find>
+      <find>eat</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,9 +94,13 @@
         <option value="$PROJECT_DIR$/My_Twitter_Listener.py" />
         <option value="$PROJECT_DIR$/Streamer_Service/My_Twitter_Listener.py" />
         <option value="$PROJECT_DIR$/Sentitment_Service.py" />
-        <option value="$PROJECT_DIR$/Display_Service/Display.py" />
+        <option value="$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
         <option value="$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
         <option value="$PROJECT_DIR$/Streamer_Service/Streamer.py" />
+        <option value="$PROJECT_DIR$/Display_Service/Display.py" />
+        <option value="$PROJECT_DIR$/Display_Service/Dockerfile" />
+        <option value="$PROJECT_DIR$/Display_Service/requirements.txt" />
+        <option value="$PROJECT_DIR$/Display_Service/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -88,17 +111,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1488" />
+    <option name="x" value="4" />
     <option name="y" value="-8" />
-    <option name="width" value="1249" />
-    <option name="height" value="682" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,12 +151,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/PythonScripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -153,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.My_Twitter_Listener">
+  <component name="RunManager" selected="Python.Streamer">
     <configuration name="Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ass1Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,7 +230,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamer_Service/Streamer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ddelo\Dropbox\College\FourthYear\Semester2\Microservices\Ass1Python\Streamer_Service\Streamer1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,13 +249,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamer_Service/Streamer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ddelo\Dropbox\College\FourthYear\Semester2\Microservices\Ass1Python\Streamer_Service\Streamer1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Twitter_Client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Streamer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ass1Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,31 +263,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Streamer_Service" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Twitter_Client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamer_Service/Streamer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Twitter_Client" />
       <item itemvalue="Python.My_Twitter_Listener" />
       <item itemvalue="Python.My_Twitter_Listener (1)" />
       <item itemvalue="Python.Display" />
       <item itemvalue="Python.Analysis" />
+      <item itemvalue="Python.Streamer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.My_Twitter_Listener" />
+        <item itemvalue="Python.Streamer" />
         <item itemvalue="Python.Analysis" />
         <item itemvalue="Python.Display" />
+        <item itemvalue="Python.My_Twitter_Listener" />
         <item itemvalue="Python.My_Twitter_Listener (1)" />
-        <item itemvalue="Python.Twitter_Client" />
       </list>
     </recent_temporary>
   </component>
@@ -280,21 +305,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073206" side_tool="true" weight="0.32750398" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.32750398" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39805827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974563" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -305,25 +330,25 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32750398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39805827" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,33 +359,78 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
-    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
-    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
-    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
-    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
-    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py" />
-    <entry file="file://$PROJECT_DIR$/Sentitment_Service.py" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/pika/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -375,7 +445,84 @@
     <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py" />
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
+    <entry file="file://$PROJECT_DIR$/Twitter_Client.py" />
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer1.py" />
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pika/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../../Big Data/Ass1/venv/Lib/site-packages/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1402" selection-start-line="1402" selection-end-line="1402" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymongo/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentitment_Service/Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streamer_Service/Streamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/Display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Display_Service/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
