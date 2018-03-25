@@ -1,0 +1,13 @@
+version: "2"
+services:
+  analyse:
+    build:
+      context: "./Sentiment_Service"
+  streaming:
+    build:
+      context: "./Streamer_Service"
+  display:
+    build:
+      context: "./Display_Service"
+    ports: 
+      - "3000:3000"

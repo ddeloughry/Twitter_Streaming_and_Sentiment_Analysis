@@ -8,7 +8,7 @@ from textblob import TextBlob
 class Analysis:
 
     def get_tweet_sentiment(self, tweet):
-        con = MongoClient('localhost', 27017)
+        con = MongoClient('localhost')
         db = con.tweets_db
         coll = db.tweets_coll
         tweet_dict = literal_eval(tweet)

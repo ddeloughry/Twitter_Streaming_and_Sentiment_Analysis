@@ -1,5 +1,5 @@
-FROM python:3.4-alpine
-ADD . /code
-WORKDIR /code
-RUN pip install -r requirements.txt
-CMD ["python", "Display.py"]
+FROM python:3-alpine
+ADD Display.py /
+RUN pip install pymongo
+RUN pip install flask
+CMD ["python","Display.py"]

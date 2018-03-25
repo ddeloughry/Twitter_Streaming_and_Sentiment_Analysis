@@ -20,7 +20,7 @@ def print_to_browser():
 
 
 def my_main():
-    con = MongoClient('localhost', 27017)
+    con = MongoClient('localhost')
     db = con.tweets_db
     tweets = db.tweets_coll
     tw = tweets.find()
