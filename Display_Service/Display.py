@@ -1,6 +1,7 @@
 import datetime
 
-from dateutil import parser
+#from dateutil import parser
+import time
 from flask import Flask
 from pymongo import MongoClient
 
@@ -12,7 +13,7 @@ twitter_average = 0
 bbc_average = 0
 
 
-@app.route("/sentiment")
+@app.route("/")
 def print_to_browser():
     all_tweets = db.tweets.find()
     for each_tweets in all_tweets:
@@ -52,12 +53,15 @@ def print_to_browser():
 
 
 def is_under_minute(param):
-    date = parser.parse(param)
-    now = datetime.datetime.now()
-    diff = str(now - date)
-    diff = diff.replace(":", ".")
-    diff = diff.split(".")
-    if int(diff[1]) >= 1 and int(diff[0].split(" ")[0]) == 0:
+    #date = parser.parse(param)
+    #now = datetime.datetime.now()
+    now = int(round(time.time() * 1000))
+    #diff = str(now - param)
+    diff = now - param
+    #diff = diff.replace(":", ".")
+    #diff = diff.split(".")
+    #if int(diff[1]) >= 1 and int(diff[0].split(" ")[0]) == 0:
+    if diff > 60000:
         return True
     else:
         return False
@@ -69,7 +73,7 @@ def my_main():
     db = con.micro_db
     print("Please wait while tweets are analysed:...")
     print("Please wait while BCC RSS posts are analysed:...")
-    app.run(host='localhost', port=3000)
+    app.run(host='localhost',port="3000")
 
 
 if __name__ == '__main__':
