@@ -1,11 +1,5 @@
-version: "2.0"
+version: "2"
 services:
-  rabbitmq:
-    image: "rabbitmq"
-    ports:
-      - "5672:5672"
-  mongodb:
-    image: "mongo"
   bbc-service:
     build:
       context: "./BBC_Streamer_Service"
@@ -15,8 +9,15 @@ services:
   analysis-service:
     build:
       context: "./Sentiment_Service"
+    links:
+      - twitter-service
+      - bbc-service
   display-service:
     build:
       context: "./Display_Service"
+    links:
+      - analysis-service
+      - twitter-service
+      - bbc-service
     ports: 
       - "3000:3000"

@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:2.7
 COPY . /ass2/
 WORKDIR "/ass2"
 RUN pip install -r require.txt

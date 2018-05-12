@@ -1,3 +1,2 @@
-pika
-pymongo
 textblob
+MySQL-python
