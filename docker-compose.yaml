@@ -3,6 +3,8 @@ services:
   bbc-service:
     build:
       context: "./BBC_Streamer_Service"
+    links:
+      - twitter-service
   twitter-service:
     build:
       context: "./Twitter_Streamer_Service"

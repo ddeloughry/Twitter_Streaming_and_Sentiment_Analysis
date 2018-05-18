@@ -9,7 +9,7 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener, Stream
 
 search_word = "trump"
-db = MySQLdb.connect(host="microservicesass2.cbrsqtjo1q6h.us-west-2.rds.amazonaws.com", user="dan",
+db = MySQLdb.connect(host="microass2.cbrsqtjo1q6h.us-west-2.rds.amazonaws.com", user="dan",
                      passwd="1234qwer", db="ass2")
 cur = db.cursor()
 
@@ -36,11 +36,10 @@ class Twitter_Streamer(StreamListener):
 
     def on_data(self, data):
         dataset = json.loads(data)
-        text = clean_tweet(dataset["text"]).replace("'", "")
-        query = "INSERT INTO sentences (sentence, source, time, tweet_tag) VALUES ('" + text + "', 'twitter', '" + str(
-            get_current_time()) + "', '" + search_word + "');"
-        cur.execute(query)
-        cur.execute("COMMIT")
+        if "text" in dataset:
+            text = clean_tweet(dataset["text"]).replace("'", "")
+            cur.execute("INSERT INTO sentences (sentence, source, time, tweet_tag) VALUES (%s, 'twitter', %s, %s);", (text, get_current_time(), search_word))
+            cur.execute("COMMIT")
 
     def on_error(self, status):
         print(status)
@@ -48,9 +47,6 @@ class Twitter_Streamer(StreamListener):
 
 
 def my_main():
-    clear_old_data_query = "DELETE FROM sentences"
-    cur.execute(clear_old_data_query)
-    cur.execute("COMMIT")
     args = get_parser().parse_args()
     auth = OAuthHandler("HqQlPfDvsu6oOVKcbSaC3dwy6", "Nr801nZ9gJoq5D6x1cQewFJeHDBnyI2IqUsYVePv7sQLLLjwxU")
     auth.set_access_token("2344102761-3D84t8gRyGEE2N9tBM99n8oTjGMdDJb12lIAWJ9",
@@ -59,7 +55,7 @@ def my_main():
         try:
             twitter_stream = Stream(auth, Twitter_Streamer(args.data_dir))
             twitter_stream.filter(track=[search_word])
-        except IncompleteRead:
+        except Exception:
             continue
 
 
