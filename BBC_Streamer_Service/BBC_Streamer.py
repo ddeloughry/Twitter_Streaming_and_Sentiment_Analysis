@@ -1,7 +1,7 @@
-import MySQLdb
-import datetime
-import feedparser
 import time
+
+import MySQLdb
+import feedparser
 
 
 def my_main():
@@ -13,7 +13,8 @@ def my_main():
         try:
             for each in bbc['entries']:
                 text = each['summary'].replace("'", "")
-                cur.execute("INSERT INTO sentences (sentence, source, time) VALUES (%s, 'bbc', %s);", (text, int(get_current_time())))
+                cur.execute("INSERT INTO sentences (sentence, source, time) VALUES (%s, 'bbc', %s);",
+                            (text, int(get_current_time())))
                 cur.execute("COMMIT")
         except UnicodeEncodeError:
             continue

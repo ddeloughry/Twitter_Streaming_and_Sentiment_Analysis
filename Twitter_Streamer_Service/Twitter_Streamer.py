@@ -1,10 +1,9 @@
-import MySQLdb
 import argparse
 import json
 import re
 import time
-from httplib import IncompleteRead
 
+import MySQLdb
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener, Stream
 
@@ -38,7 +37,8 @@ class Twitter_Streamer(StreamListener):
         dataset = json.loads(data)
         if "text" in dataset:
             text = clean_tweet(dataset["text"]).replace("'", "")
-            cur.execute("INSERT INTO sentences (sentence, source, time, tweet_tag) VALUES (%s, 'twitter', %s, %s);", (text, get_current_time(), search_word))
+            cur.execute("INSERT INTO sentences (sentence, source, time, tweet_tag) VALUES (%s, 'twitter', %s, %s);",
+                        (text, get_current_time(), search_word))
             cur.execute("COMMIT")
 
     def on_error(self, status):

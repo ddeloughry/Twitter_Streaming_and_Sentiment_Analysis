@@ -1,5 +1,4 @@
 import MySQLdb
-import time
 
 from flask import Flask
 
