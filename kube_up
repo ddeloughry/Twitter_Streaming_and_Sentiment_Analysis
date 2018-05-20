@@ -1,0 +1,5 @@
+kubectl create -f analysis-deployment.yaml
+kubectl create -f bbc-deployment.yaml
+kubectl create -f display-deployment.yaml
+kubectl create -f display-service.yaml
+kubectl create -f twitter-deployment.yaml
